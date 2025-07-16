@@ -1,0 +1,2 @@
+web: gunicorn stellsync_chatbot.app:app
+
