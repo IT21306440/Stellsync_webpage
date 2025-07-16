@@ -961,3 +961,14 @@ These results demonstrate our commitment to building solutions that drive real b
 2025-07-16 13:40:06,043 - INFO - 127.0.0.1 - - [16/Jul/2025 13:40:06] "OPTIONS /chat HTTP/1.1" 200 -
 2025-07-16 13:40:06,047 - INFO - Fuzzy best match: 'projects and services|services and projects|what are you doing|what services you are giving|what services you provide|what projects you are doing|current projects|what project are you doing|tell me about your projects and services' (100.0%)
 2025-07-16 13:40:06,047 - INFO - 127.0.0.1 - - [16/Jul/2025 13:40:06] "POST /chat HTTP/1.1" 200 -
+2025-07-16 15:42:45,943 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.144:5000
+2025-07-16 15:42:45,943 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-16 15:42:45,945 - INFO -  * Restarting with stat
+2025-07-16 15:42:49,846 - WARNING -  * Debugger is active!
+2025-07-16 15:42:49,852 - INFO -  * Debugger PIN: 104-141-020
+2025-07-16 15:43:02,945 - INFO - 127.0.0.1 - - [16/Jul/2025 15:43:02] "OPTIONS /chat HTTP/1.1" 200 -
+2025-07-16 15:43:02,952 - INFO - Fuzzy best match: 'hi|hello|hey|greetings' (100.0%)
+2025-07-16 15:43:02,953 - INFO - 127.0.0.1 - - [16/Jul/2025 15:43:02] "POST /chat HTTP/1.1" 200 -
